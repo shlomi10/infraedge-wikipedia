@@ -6,7 +6,7 @@
 
 ![GitHub Actions](https://img.shields.io/github/actions/workflow/status/shlomi10/infraedge-wikipedia/allure.yml?style=for-the-badge&logo=githubactions&logoColor=white&label=GitHub%20Actions)![HTML Report](https://img.shields.io/badge/HTML-Report-E34F26?style=for-the-badge&logo=html5&logoColor=white)![Logging](https://img.shields.io/badge/Logging-Enabled-06B6D4?style=for-the-badge&logo=datadog&logoColor=white)![Word Count](https://img.shields.io/badge/Validation-Unique%20Words-EC4899?style=for-the-badge)![Wikipedia](https://img.shields.io/badge/Target-Wikipedia-000000?style=for-the-badge&logo=wikipedia&logoColor=white)![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)![Live Allure](https://img.shields.io/badge/Allure-Live%20Report-F59E0B?style=for-the-badge&logo=allure&logoColor=white)
 
-[![Docker](https://img.shields.io/badge/Docker-Image-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/shlomi10/infraedge-wikipedia)[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-shlomi10%2Finfraedge--wikipedia-086DD7?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/shlomi10/infraedge-wikipedia)[![Docker Tag](https://img.shields.io/badge/Tag-latest-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/shlomi10/infraedge-wikipedia/tags)[![Streamlit Port](https://img.shields.io/badge/Streamlit-8501-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](http://localhost:8501)[![Playwright Headless](https://img.shields.io/badge/Playwright-Headless-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev/python/)
+[![Docker](https://img.shields.io/badge/Docker-Image-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/shlomi10/infraedge-wikipedia)[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-shlomi10%2Finfraedge--wikipedia-086DD7?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/shlomi10/infraedge-wikipedia)[![Docker Tag](https://img.shields.io/badge/Tag-latest-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/shlomi10/infraedge-wikipedia/tags)[![Live App](https://img.shields.io/badge/Live%20App-runmydocker--app-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://infraedge-wikipedia.runmydocker-app.com)[![Streamlit Port](https://img.shields.io/badge/Streamlit-8501-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://infraedge-wikipedia.runmydocker-app.com)[![Playwright Headless](https://img.shields.io/badge/Playwright-Headless-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev/python/)
 
 Automation framework that validates unique-word counts from the Wikipedia **Test automation** page — comparing the **Test-driven development** section between **UI** and **API** using **Python**, **Playwright**, **Pytest**, and **Allure**.
 
@@ -26,6 +26,12 @@ Docker Hub:
 
 ```bash
 https://hub.docker.com/r/shlomi10/infraedge-wikipedia
+```
+
+Live Streamlit app:
+
+```bash
+https://infraedge-wikipedia.runmydocker-app.com
 ```
 
 ---
@@ -292,6 +298,12 @@ Then open:
 http://localhost:8501
 ```
 
+Hosted app:
+
+```text
+https://infraedge-wikipedia.runmydocker-app.com
+```
+
 The UI lets you:
 
 ```text
@@ -314,6 +326,14 @@ Read the pytest output
 ### Run the Streamlit UI in a container
 
 The image is on Docker Hub as `shlomi10/infraedge-wikipedia:latest`. It starts Streamlit and includes Playwright Chromium, so **Run test** works inside the container.
+
+There is also a hosted Streamlit app:
+
+```bash
+https://infraedge-wikipedia.runmydocker-app.com
+```
+
+On Run My Docker the HTTPS port must map to container port `8501`.
 
 Image page:
 
