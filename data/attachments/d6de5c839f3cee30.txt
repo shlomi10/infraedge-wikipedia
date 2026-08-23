@@ -1,0 +1,1 @@
+Test automation Test-driven development Test-driven development (TDD) inherently includes the generation of automation test code. Unit test code is written while the SUT code is written. When the code is complete, the tests are complete as well.

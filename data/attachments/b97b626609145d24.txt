@@ -1,0 +1,13 @@
+INFO     test_unique_word_count:test_unique_word_count.py:20 Opening Wikipedia Test automation page
+INFO     WikipediaPage:base_page.py:15 Go to: https://en.wikipedia.org/wiki/Test_automation
+INFO     WikipediaPage:base_page.py:40 Wait visible: <Locator frame=<Frame name= url='https://en.wikipedia.org/wiki/Test_automation'> selector='#firstHeading'>
+INFO     WikipediaPage:base_page.py:40 Wait visible: <Locator frame=<Frame name= url='https://en.wikipedia.org/wiki/Test_automation'> selector='#mw-content-text >> .mw-parser-output >> section[aria-labelledby=\'Test-driven_development\'] >> internal:role=heading[name="Test-driven development"s]'>
+INFO     WikipediaPage:base_page.py:40 Wait visible: <Locator frame=<Frame name= url='https://en.wikipedia.org/wiki/Test_automation'> selector='#mw-content-text >> .mw-parser-output >> section[aria-labelledby=\'Test-driven_development\'] >> internal:role=heading[name="Test-driven development"s]'>
+INFO     WikipediaPage:base_page.py:40 Wait visible: <Locator frame=<Frame name= url='https://en.wikipedia.org/wiki/Test_automation'> selector="#mw-content-text >> .mw-parser-output >> section[aria-labelledby='Test-driven_development'] >> p >> nth=0">
+INFO     WikipediaPage:base_page.py:81 Element text: Test automation
+INFO     WikipediaPage:base_page.py:81 Element text: Test-driven development
+INFO     WikipediaPage:base_page.py:81 Element text: Test-driven development (TDD) inherently includes the generation of automation test code. Unit test code is written while the SUT code is written. When the code is complete, the tests are complete as well.[8]
+INFO     test_unique_word_count:test_unique_word_count.py:30 UI unique words: 22
+INFO     test_unique_word_count:test_unique_word_count.py:39 Querying Wikipedia API for Test automation extract
+INFO     ApiClient:api_client.py:14 GET /w/api.php params={'action': 'query', 'format': 'json', 'prop': 'extracts', 'titles': 'Test automation', 'explaintext': '1', 'redirects': '1'}
+INFO     test_unique_word_count:test_unique_word_count.py:47 API unique words: 22
