@@ -6,3 +6,4 @@ pytest-playwright
 pytest-html
 python-dotenv
 streamlit
+flask

@@ -337,7 +337,7 @@ There is also a hosted Streamlit app:
 https://infraedge-wikipedia.runmydocker-app.com
 ```
 
-On Run My Docker the HTTPS port must map to container port `8501`.
+On Run My Docker the HTTPS port must map to container port `8501`. The hosted app uses a plain HTTP UI because Streamlit needs WebSockets, which that host does not upgrade.
 
 Image page:
 
