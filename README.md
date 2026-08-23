@@ -5,6 +5,16 @@
 <h1 align="center">Wikipedia Unique Words Automation</h1>
 
 <p align="center">
+  <a href="https://github.com/shlomi10/infraedge-wikipedia"><strong>Repository</strong></a>
+  ·
+  <a href="https://shlomi10.github.io/infraedge-wikipedia/"><strong>Live Allure Report</strong></a>
+  ·
+  <a href="https://hub.docker.com/r/shlomi10/infraedge-wikipedia"><strong>Docker Hub</strong></a>
+  ·
+  <a href="https://infraedge-wikipedia.runmydocker-app.com"><strong>Live App</strong></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/shlomi10/infraedge-wikipedia"><img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <img src="https://img.shields.io/badge/Python-3.14+-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python">
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright">
@@ -469,6 +479,9 @@ After the first successful workflow, enable GitHub Pages:
 ```text
 Settings → Pages → Build and deployment
 Source: GitHub Actions
+
+Settings → Environments → github-pages
+Deployment branches: Selected branches → add main
 ```
 
 Workflow permissions should allow writing:
