@@ -1,4 +1,6 @@
-![Wikipedia](assets/wikipedia-logo.png)
+<p align="center">
+  <img src="assets/wikipedia-logo.png" width="180" alt="Wikipedia">
+</p>
 
 # Wikipedia Unique Words Automation
 
@@ -321,7 +323,9 @@ Read the pytest output
 
 ## 🐳 Docker
 
-![Docker](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg)
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="64" alt="Docker">
+</p>
 
 ### Run the Streamlit UI in a container
 
