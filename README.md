@@ -468,8 +468,7 @@ After the first successful workflow, enable GitHub Pages:
 
 ```text
 Settings → Pages → Build and deployment
-Source: Deploy from a branch
-Branch: gh-pages / root
+Source: GitHub Actions
 ```
 
 Workflow permissions should allow writing:
