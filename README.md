@@ -1,29 +1,10 @@
-<p align="center">
-  <img src="assets/wikipedia-logo.png" width="180" alt="Wikipedia">
-</p>
+![Wikipedia](assets/wikipedia-logo.png)
 
-<h1 align="center">Wikipedia Unique Words Automation</h1>
+# Wikipedia Unique Words Automation
 
-<p align="center">
-  <a href="https://github.com/shlomi10/infraedge-wikipedia"><img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.14+-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python"></a>
-  <a href="https://playwright.dev/python/"><img src="https://img.shields.io/badge/Playwright-UI%20Automation-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright"></a>
-  <a href="https://docs.pytest.org/"><img src="https://img.shields.io/badge/Pytest-Test%20Runner-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest"></a>
-  <a href="https://allurereport.org/"><img src="https://img.shields.io/badge/Allure-Test%20Reports-FF6A00?style=for-the-badge&logo=allure&logoColor=white" alt="Allure"></a>
-  <img src="https://img.shields.io/badge/REST%20API-Wikipedia%20Query-7B2CBF?style=for-the-badge&logo=swagger&logoColor=white" alt="REST API">
-  <img src="https://img.shields.io/badge/Pattern-Page%20Object%20Model-6C63FF?style=for-the-badge" alt="POM">
-</p>
+![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)![Python](https://img.shields.io/badge/Python-3.14+-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B)![Playwright](https://img.shields.io/badge/Playwright-UI%20Automation-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)![Pytest](https://img.shields.io/badge/Pytest-Test%20Runner-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)![Allure](https://img.shields.io/badge/Allure-Test%20Reports-FF6A00?style=for-the-badge&logo=allure&logoColor=white)![REST API](https://img.shields.io/badge/REST%20API-Wikipedia%20Query-7B2CBF?style=for-the-badge&logo=swagger&logoColor=white)![POM](https://img.shields.io/badge/Pattern-Page%20Object%20Model-6C63FF?style=for-the-badge)
 
-<p align="center">
-  <a href="https://github.com/shlomi10/infraedge-wikipedia/actions/workflows/allure.yml"><img src="https://img.shields.io/github/actions/workflow/status/shlomi10/infraedge-wikipedia/allure.yml?style=for-the-badge&logo=githubactions&logoColor=white&label=GitHub%20Actions" alt="GitHub Actions"></a>
-  <img src="https://img.shields.io/badge/HTML-Report-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Report">
-  <img src="https://img.shields.io/badge/Logging-Enabled-06B6D4?style=for-the-badge&logo=datadog&logoColor=white" alt="Logging">
-  <img src="https://img.shields.io/badge/Validation-Unique%20Words-EC4899?style=for-the-badge" alt="Word Count">
-  <a href="https://en.wikipedia.org/wiki/Test_automation"><img src="https://img.shields.io/badge/Target-Wikipedia-000000?style=for-the-badge&logo=wikipedia&logoColor=white" alt="Wikipedia"></a>
-  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
-  <a href="https://streamlit.io/"><img src="https://img.shields.io/badge/Streamlit-UI-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"></a>
-  <a href="https://shlomi10.github.io/infraedge-wikipedia/"><img src="https://img.shields.io/badge/Allure-Live%20Report-F59E0B?style=for-the-badge&logo=allure&logoColor=white" alt="Live Allure"></a>
-</p>
+![GitHub Actions](https://img.shields.io/github/actions/workflow/status/shlomi10/infraedge-wikipedia/allure.yml?style=for-the-badge&logo=githubactions&logoColor=white&label=GitHub%20Actions)![HTML Report](https://img.shields.io/badge/HTML-Report-E34F26?style=for-the-badge&logo=html5&logoColor=white)![Logging](https://img.shields.io/badge/Logging-Enabled-06B6D4?style=for-the-badge&logo=datadog&logoColor=white)![Word Count](https://img.shields.io/badge/Validation-Unique%20Words-EC4899?style=for-the-badge)![Wikipedia](https://img.shields.io/badge/Target-Wikipedia-000000?style=for-the-badge&logo=wikipedia&logoColor=white)![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)![Live Allure](https://img.shields.io/badge/Allure-Live%20Report-F59E0B?style=for-the-badge&logo=allure&logoColor=white)
 
 Automation framework that validates unique-word counts from the Wikipedia **Test automation** page — comparing the **Test-driven development** section between **UI** and **API** using **Python**, **Playwright**, **Pytest**, and **Allure**.
 
@@ -287,6 +268,8 @@ pytest -s
 
 ---
 
+
+
 ## 🖥️ Streamlit UI
 
 Launch the local runner that executes the same pytest test and shows unique-word results:
@@ -314,21 +297,15 @@ Read the pytest output
 
 ---
 
+
+
 ## 🐳 Docker
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="120" alt="Docker">
-</p>
+![Docker](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg)
 
-<h3 align="center">Run the Streamlit UI in a container</h3>
+### Run the Streamlit UI in a container
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Docker-Image-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Streamlit-8501-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit">
-  <img src="https://img.shields.io/badge/Playwright-Headless-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright">
-  <img src="https://img.shields.io/badge/Python-3.14-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python">
-  <img src="https://img.shields.io/badge/Docker%20Hub-Ready-086DD7?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Hub">
-</p>
+![Docker](https://img.shields.io/badge/Docker-Image-2496ED?style=for-the-badge&logo=docker&logoColor=white)![Streamlit](https://img.shields.io/badge/Streamlit-8501-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)![Playwright](https://img.shields.io/badge/Playwright-Headless-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B)![Docker Hub](https://img.shields.io/badge/Docker%20Hub-Ready-086DD7?style=for-the-badge&logo=docker&logoColor=white)
 
 The image starts Streamlit and includes Playwright Chromium, so **Run test** works inside the container.
 
@@ -338,11 +315,15 @@ The image starts Streamlit and includes Playwright Chromium, so **Run test** wor
 docker build -t infraedge-wikipedia .
 ```
 
+
+
 ### 2. Run the UI
 
 ```bash
 docker run --rm -p 8501:8501 infraedge-wikipedia
 ```
+
+
 
 ### 3. Open
 
@@ -368,6 +349,8 @@ docker run --rm -p 8501:8501 shlomi10/infraedge-wikipedia:latest
 ```
 
 ---
+
+
 
 ## 📊 Allure Report
 
@@ -625,7 +608,7 @@ pytest
 pytest -v
 pytest --alluredir=allure-results
 pytest --html=reports/report.html --self-contained-html
-allure generate allure-results -o allure-report --clean
+allure generate allure-results -o allure-report
 allure open allure-report
 python -m streamlit run ui/app.py
 docker build -t infraedge-wikipedia .
