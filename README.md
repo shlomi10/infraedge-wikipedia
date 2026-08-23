@@ -2,11 +2,25 @@
   <img src="assets/wikipedia-logo.png" width="180" alt="Wikipedia">
 </p>
 
-# Wikipedia Unique Words Automation
+<h1 align="center">Wikipedia Unique Words Automation</h1>
 
-![Python](https://img.shields.io/badge/Python-3.14+-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B)![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)![Allure](https://img.shields.io/badge/Allure-FF6A00?style=for-the-badge&logo=allure&logoColor=white)![REST API](https://img.shields.io/badge/REST%20API-7B2CBF?style=for-the-badge&logo=swagger&logoColor=white)![POM](https://img.shields.io/badge/POM-6C63FF?style=for-the-badge)
+<p align="center">
+  <a href="https://github.com/shlomi10/infraedge-wikipedia"><img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <img src="https://img.shields.io/badge/Python-3.14+-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python">
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright">
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest">
+  <img src="https://img.shields.io/badge/Allure-FF6A00?style=for-the-badge&logo=allure&logoColor=white" alt="Allure">
+  <img src="https://img.shields.io/badge/REST%20API-7B2CBF?style=for-the-badge&logo=swagger&logoColor=white" alt="REST API">
+  <img src="https://img.shields.io/badge/POM-6C63FF?style=for-the-badge" alt="POM">
+</p>
 
-[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/shlomi10/infraedge-wikipedia/allure.yml?style=for-the-badge&logo=githubactions&logoColor=white&label=GitHub%20Actions)](https://github.com/shlomi10/infraedge-wikipedia/actions)[![Allure Report](https://img.shields.io/badge/Allure-Live%20Report-F59E0B?style=for-the-badge&logo=allure&logoColor=white)](https://shlomi10.github.io/infraedge-wikipedia/)[![Docker](https://img.shields.io/badge/Docker-Hub-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/shlomi10/infraedge-wikipedia)
+<p align="center">
+  <a href="https://github.com/shlomi10/infraedge-wikipedia/actions"><img src="https://img.shields.io/github/actions/workflow/status/shlomi10/infraedge-wikipedia/allure.yml?style=for-the-badge&logo=githubactions&logoColor=white&label=GitHub%20Actions" alt="GitHub Actions"></a>
+  <a href="https://shlomi10.github.io/infraedge-wikipedia/"><img src="https://img.shields.io/badge/Allure-Live%20Report-F59E0B?style=for-the-badge&logo=allure&logoColor=white" alt="Allure Report"></a>
+  <img src="https://img.shields.io/badge/HTML-Report-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Report">
+  <a href="https://hub.docker.com/r/shlomi10/infraedge-wikipedia"><img src="https://img.shields.io/badge/Docker-Hub-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
+  <a href="https://en.wikipedia.org/wiki/Test_automation"><img src="https://img.shields.io/badge/Wikipedia-000000?style=for-the-badge&logo=wikipedia&logoColor=white" alt="Wikipedia"></a>
+</p>
 
 Automation framework that validates unique-word counts from the Wikipedia **Test automation** page — comparing the **Test-driven development** section between **UI** and **API** using **Python**, **Playwright**, **Pytest**, and **Allure**.
 
