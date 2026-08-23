@@ -1,3 +1,4 @@
+import os
 import sys
 from pathlib import Path
 
@@ -91,6 +92,11 @@ PAGE = """
 """
 
 
+@app.get("/health")
+def health():
+    return "ok"
+
+
 @app.get("/assets/<path:filename>")
 def assets(filename: str):
     return send_from_directory(ROOT / "assets", filename)
@@ -104,4 +110,4 @@ def home():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8501)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", "8501")))

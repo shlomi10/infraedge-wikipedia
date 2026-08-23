@@ -14,6 +14,6 @@ RUN pip install --no-cache-dir -r requirements.txt \
 
 COPY . .
 
-EXPOSE 8501
+EXPOSE 80 8501
 
-CMD ["python", "ui/server.py"]
+CMD ["sh", "-c", "PORT=8501 python ui/server.py & PORT=80 python ui/server.py"]
