@@ -32,8 +32,6 @@
   <a href="https://en.wikipedia.org/wiki/Test_automation"><img src="https://img.shields.io/badge/Wikipedia-000000?style=for-the-badge&logo=wikipedia&logoColor=white" alt="Wikipedia"></a>
 </p>
 
-Automation framework that validates unique-word counts from the Wikipedia **Test automation** page — comparing the **Test-driven development** section between **UI** and **API** using **Python**, **Playwright**, **Pytest**, and **Allure**.
-
 Repository:
 
 ```bash
