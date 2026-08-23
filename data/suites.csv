@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","1522","Unique word count matches between UI and API TDD section","tests","2026-08-23","passed","2026-08-23","TestUniqueWordCount","test_unique_word_count","",""
+"","1429","Unique word count matches between UI and API TDD section","tests","2026-08-23","passed","2026-08-23","TestUniqueWordCount","test_unique_word_count","",""

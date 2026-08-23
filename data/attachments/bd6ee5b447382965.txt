@@ -1,6 +1,6 @@
 INFO     test_unique_word_count:test_unique_word_count.py:20 Opening Wikipedia Test automation page
 INFO     WikipediaPage:base_page.py:15 Go to: https://en.wikipedia.org/wiki/Test_automation
-INFO     WikipediaPage:base_page.py:40 Wait visible: <Locator frame=<Frame name= url='https://en.wikipedia.org/wiki/Test_automation'> selector='#firstHeading'>
+INFO     WikipediaPage:base_page.py:40 Wait visible: <Locator frame=<Frame name= url='https://en.wikipedia.org/wiki/Test_automation'> selector='h1.firstHeading.mw-first-heading'>
 INFO     WikipediaPage:base_page.py:40 Wait visible: <Locator frame=<Frame name= url='https://en.wikipedia.org/wiki/Test_automation'> selector='#mw-content-text >> .mw-parser-output >> section[aria-labelledby=\'Test-driven_development\'] >> internal:role=heading[name="Test-driven development"s]'>
 INFO     WikipediaPage:base_page.py:40 Wait visible: <Locator frame=<Frame name= url='https://en.wikipedia.org/wiki/Test_automation'> selector='#mw-content-text >> .mw-parser-output >> section[aria-labelledby=\'Test-driven_development\'] >> internal:role=heading[name="Test-driven development"s]'>
 INFO     WikipediaPage:base_page.py:40 Wait visible: <Locator frame=<Frame name= url='https://en.wikipedia.org/wiki/Test_automation'> selector="#mw-content-text >> .mw-parser-output >> section[aria-labelledby='Test-driven_development'] >> p >> nth=0">
