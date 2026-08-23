@@ -11,7 +11,7 @@ class WikipediaPage(BasePage):
     def __init__(self, page: Page):
         super().__init__(page)
 
-        self.page_title = page.locator("#firstHeading")
+        self.page_title = page.locator("h1.firstHeading.mw-first-heading")
         self.article_body = page.locator("#mw-content-text").locator(".mw-parser-output")
         self.tdd_section = self.article_body.locator(f"section[aria-labelledby='{TDD_HEADING_ID}']")
         self.tdd_heading = self.tdd_section.get_by_role(
