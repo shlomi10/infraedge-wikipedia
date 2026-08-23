@@ -77,7 +77,6 @@ html, body, [class*="css"] {
 
 HEADER_HTML = """
 <div class="hero">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/240px-Wikipedia-logo-v2.svg.png" alt="Wikipedia">
   <h1>Wikipedia Unique Words Runner</h1>
   <p>Runs the UI + API pytest and shows unique-word results</p>
 </div>

@@ -19,6 +19,11 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
+logo = ROOT / "assets" / "wikipedia-logo.png"
+if logo.exists():
+    left, mid, right = st.columns([1, 1, 1])
+    with mid:
+        st.image(str(logo), width=160)
 st.markdown(HEADER_HTML, unsafe_allow_html=True)
 
 url = st.text_input("Wikipedia URL", value=BASE_URL)

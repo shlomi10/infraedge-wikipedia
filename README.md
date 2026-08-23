@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wikipedia-logo-v2-en.svg/440px-Wikipedia-logo-v2-en.svg.png" width="180" alt="Wikipedia">
+  <img src="assets/wikipedia-logo.png" width="180" alt="Wikipedia">
 </p>
 
 <h1 align="center">Wikipedia Unique Words Automation</h1>
@@ -166,6 +166,8 @@ infraedge-wikipedia/
 │   └── credentials.toml
 ├── Dockerfile
 ├── .dockerignore
+├── assets/
+│   └── wikipedia-logo.png
 ├── ui/
 │   ├── app.py
 │   ├── runner.py
