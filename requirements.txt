@@ -1,0 +1,8 @@
+allure-pytest
+allure_python_commons
+playwright
+pytest
+pytest-playwright
+pytest-html
+python-dotenv
+streamlit
