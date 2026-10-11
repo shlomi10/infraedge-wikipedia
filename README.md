@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://github.com/shlomi10/infraedge-wikipedia"><img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <img src="https://img.shields.io/badge/Python-3.14+-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python">
+  <img src="https://img.shields.io/badge/Python-3.15+-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python">
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright">
   <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest">
   <img src="https://img.shields.io/badge/Allure-FF6A00?style=for-the-badge&logo=allure&logoColor=white" alt="Allure">
@@ -219,7 +219,7 @@ infraedge-wikipedia/
 
 Install before running:
 
-- Python 3.14+
+- Python 3.15+
 - Git
 - Node.js / npm only if you want to use Allure CLI through npm
 
